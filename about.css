@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body{
+  background:#20262f;
+  
+}
+
+header{
+  background-color: #000000;
+}
+
+header nav{
+    padding: 20px;
+}
+
+header nav ul{
+  margin-left: 60%;
+}
+
+header nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 15px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+header nav ul li a:hover{
+    color: #1496dc;
+}
+
+
+    .container{
+        width:100%;
+        max-width:1900px;
+        background:rgba(49, 82, 9, 0.1);
+        backdrop-filter:blur(10px);
+        border-radius:20px;
+        overflow:hidden;
+        display:inline-flex;
+        box-shadow:0 10px 30px rgba(41, 37, 37, 0.4);
+    }
+
+    /* LEFT SIDE */
+
+    .left{
+        width:50%;
+        background:url('https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1200&auto=format&fit=crop');
+        background-size:cover;
+        background-position:center;
+        min-height:600px;
+    }
+
+    /* RIGHT SIDE */
+
+    .right{
+        width:50%;
+        padding:50px;
+        color:white;
+    }
+
+    .right h1{
+        font-size:45px;
+        margin-bottom:20px;
+        color:#60a5fa;
+    }
+
+    .right p{
+        font-size:18px;
+        line-height:1.8;
+        color:#e5e7eb;
+        margin-bottom:20px;
+    }
+
+    /* FEATURES */
+
+    .features{
+        margin-top:20px;
+    }
+
+    .features li{
+        list-style:none;
+        margin-bottom:15px;
+        font-size:18px;
+        padding:12px;
+        background:rgba(255,255,255,0.1);
+        border-radius:10px;
+        transition:0.3s;
+    }
+
+    .features li:hover{
+        transform:translateX(10px);
+        background:#2563eb;
+    }
+
+    /* BUTTON */
+
+    .btn{
+        display:inline-block;
+        margin-top:25px;
+        padding:14px 35px;
+        background:#2563eb;
+        color:white;
+        text-decoration:none;
+        border-radius:10px;
+        font-size:18px;
+        transition:0.3s;
+    }
+
+    .btn:hover{
+        background:#1d4ed8;
+        transform:scale(1.05);
+    }
+
+    /* RESPONSIVE */
+
+    @media(max-width:900px){
+
+    .container{
+        flex-direction:column;
+    }
+
+    .left{
+        width:100%;
+        min-height:300px;
+    }
+
+    .right{
+        width:100%;
+        text-align:center;
+    }
+
+    }
+
+
+    

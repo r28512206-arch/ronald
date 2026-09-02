@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="product.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="product.html">PRODUCT</a></li>
+        <li><a href="contact.html">CONTACT</a></A></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  
+    <div class="container">
+
+      <!-- UPLOAD PAGE -->
+      <div id="uploadPage">
+
+        <div class="title">AI Resume Screening System</div>
+
+        <div class="subtitle">
+          Upload your resume and get instant screening analysis
+        </div>
+
+        <div class="upload-box">
+
+          <div class="upload-icon">📄</div>
+
+          <h2>Upload Resume</h2>
+
+          <p style="margin-top:10px;color:#666;">
+            Supported Format : PDF / DOC / DOCX
+          </p>
+
+          <input type="file" id="resumeFile">
+
+        </div>
+
+        <button class="analyze-btn" onclick="analyzeResume()">
+          Analyze Resume
+        </button>
+
+      </div>
+
+      <!-- LOADING PAGE -->
+      <div id="loadingPage" class="hidden">
+
+        <div class="loading">
+
+          <div class="loader"></div>
+
+          <h2 style="margin-top:25px;">
+            Analyzing Resume...
+          </h2>
+
+          <p style="margin-top:10px;color:#666;">
+            Checking skills, experience and ATS compatibility
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- RESULT PAGE -->
+      <div id="resultPage" class="hidden">
+
+        <div class="title">Resume Analysis Report</div>
+
+        <div class="result-box">
+
+          <!-- ATS SCORE -->
+          <div class="result-card">
+
+            <div class="result-title">
+              ATS Compatibility Score
+            </div>
+
+            <div class="score" id="scoreText">
+              0%
+            </div>
+
+            <div class="progress-bar">
+              <div class="progress" id="progressBar"></div>
+            </div>
+
+          </div>
+
+          <!-- SKILLS -->
+          <div class="result-card">
+
+            <div class="result-title">
+              Skills Detected
+            </div>
+
+            <div id="skillsContainer"></div>
+
+          </div>
+
+          <!-- EXPERIENCE -->
+          <div class="result-card">
+
+            <div class="result-title">
+              Resume Summary
+            </div>
+
+            <p id="summaryText">
+            </p>
+
+          </div>
+
+          <!-- RESULT -->
+          <div id="statusBox" class="status">
+          </div>
+
+        </div>
+
+        <button class="analyze-btn" onclick="goBack()">
+          Upload Another Resume
+        </button>
+
+      </div>
+        
+
+    </div>
+
+
+  
+
+  <script>
+    l
+  </script>
+
+
+
+</body>
+
+</html>
+
+<script src="product.js"></script>

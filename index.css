@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+body{
+  background-image: url(imgg/istockphoto-1916729901-612x612.jpg);
+  background-size:cover;
+}
+
+header{
+  background-color: #000000af;
+}
+
+header nav{
+    padding: 20px;
+}
+
+header nav ul{
+  margin-left: 60%;
+}
+
+header nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 15px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+header nav ul li a:hover{
+    color: #1496dc;
+}
+.homeh1 h1{
+    font-size: 60px;
+    color: rgb(26, 24, 24); 
+    text-shadow: 0 5px 10px rgb(212, 212, 196);
+    /* -webkit-text-stroke: 1px rgb(130, 45, 45); */
+    color: rgb(0, 0, 0);
+    outline: 100;
+    font-size: 60px;
+
+    text-align: center;
+
+    margin-top: 15%;
+
+    font-family: monospace;
+
+}
+
+.homeh1 button{
+    font-size: 30px;
+    background-color: #161618;
+    color: rgb(255, 250, 250);
+
+    padding: 5px 30px;
+    margin-top: 40px;
+
+    border-radius: 30px;
+
+    cursor: pointer;
+}
+
+.homeh1 button:hover{
+    background-color: #192836;
+    scale: 1.1;
+
+    border-radius: 90px;
+}
+
+header nav ul li a:hover{
+    color: #1496dc;
+}
+
+
+
